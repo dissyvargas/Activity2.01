@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create two related model classes called project and task 
+#class model
 class Project(models.Model):
     name = models.CharField(max_length=50, help_text="Project Name")
     creation_time = models.DateTimeField(auto_now_add=True, help_text="Project creation time.")
